@@ -80,6 +80,7 @@ $done = array_filter($taches, fn($t) => $t['statut'] === 'done');
             <?php endforeach; ?>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
